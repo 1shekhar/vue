@@ -1,0 +1,26 @@
+{
+	"gammaAccess": {
+		"url": "http://localhost:3000",
+		"userName": "chandrashekhar.bhosale@acellere.com",
+		"password": "admin1234"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "48f5058daa4fef4a7972267f43423bc6",
+			"projectName": "LTC_Vue_JS",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "$GAMMA_DATA",
+		"modules": {
+			"codeissues": [{
+						"name": "jshint"
+					},
+					{
+						"name": "eslint"
+					}
+				]
+		}
+	}]
+}
